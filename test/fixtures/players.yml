@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  first_name: MyString
+  last_name: MyString
+  school: MyString
+  position: MyString
+  cbs_projection: 1
+  nfl_projection: 1
+  drafttek_projection: 1
+  composite_rating: 9.99
+  year: 1
+
+two:
+  first_name: MyString
+  last_name: MyString
+  school: MyString
+  position: MyString
+  cbs_projection: 1
+  nfl_projection: 1
+  drafttek_projection: 1
+  composite_rating: 9.99
+  year: 1
