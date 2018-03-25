@@ -1,4 +1,4 @@
-# Player.destroy_all
+Player.destroy_all
 
 require 'csv'
 

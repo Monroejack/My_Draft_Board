@@ -1,2 +1,26 @@
-<h1>Welcome#contact</h1>
-<p>Find me in app/views/welcome/contact.html.erb</p>
+<h1>Contact Us!</h1>
+
+<div class="container">
+  <ul>
+  <% @players.each do |player| %>
+    <li>
+      <%= player.last_name %>, <%= player.first_name %>
+      School <%= player.school %>,
+      Position: <%= player.position %>
+    </li>
+    <% end %>
+</ul>
+</div>
+
+<div class="container">
+  <h1>All Quarterbacks</h1>
+  <ul>
+  <% @quarterback.each do |player| %>
+    <li>
+      <%= player.last_name %>, <%= player.first_name %>
+      School <%= player.school %>,
+      Position: <%= player.position %>
+    </li>
+    <% end %>
+</ul>
+</div>

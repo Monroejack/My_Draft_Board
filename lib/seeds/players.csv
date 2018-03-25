@@ -1,0 +1,204 @@
+last_name,first_name,school,position,cbs_projection,nfl_projection,drafttek_projection,composite_rating,year
+Darnold,Sam,USC,QB,1,1,1,1.0,2018
+Rosen,Josh,UCLA,QB,1,1,1,1.0,2018
+Mayfield,Baker,Oklahoma,QB,2,1,1,1.3,2018
+Rudolph,Mason,Oklahoma State,QB,1,2,1,1.3,2018
+Allen,Josh,Wyoming,QB,3,1,1,1.7,2018
+Jackson,Lamar,Louisville,QB,1,1,2,1.3,2018
+White,Mike,Western Kentucky,QB,5,3,3,3.7,2018
+Lauletta,Kyle,Richmond,QB,6,7,3,5.3,2018
+Falk,Luke,Washington State,QB,7,3,2,4.0,2018
+Ferguson,Riley,Memphis,QB,6,5,3,4.7,2018
+Lee,Tanner,Nebraska,QB,7,7,7,7.0,2018
+Stevens,Nick,Colorado State,QB,6,7,7,6.7,2018
+Woodside,Logan,Toledo,QB,5,7,7,6.3,2018
+Litton,Chase,Marshall,QB,7,7,3,5.7,2018
+Barrett,JT,Ohio State,QB,7,7,7,7.0,2018
+Benkurt,Kurt,Virginia,QB,7,6,5,6.0,2018
+Michel,Sony,Georgia,RB,2,2,2,2.0,2018
+Hines,Nyheim,NC State,RB,4,3,5,4.0,2018
+Walton,Mark,Miami,RB,3,4,3,3.3,2018
+Ballage,Kalen,Arizona State,RB,3,5,3,3.7,2018
+Johnson,Kerryon,Auburn,RB,3,2,3,2.7,2018
+Wadley,Akrum,Iowa,RB,4,3,4,3.7,2018
+Penny,Rashaad,San Diego State,RB,4,2,4,3.3,2018
+Adams,Josh,Notre Dame,RB,4,6,3,4.3,2018
+Scarborough,Bo,Alabama,RB,6,4,4,4.7,2018
+Williams,Darrell,LSU,RB,7,7,7,7.0,2018
+Thomas,Roc,Jacksonville State,RB,4,5,7,5.3,2018
+Crawford,Justin,West Virginia,RB,5,7,5,5.7,2018
+Wilkins,Jordan,Ole Miss,RB,5,4,7,5.3,2018
+Samuels,Jaylen,NC State,RB,3,4,5,4.0,2018
+Kirk,Christian,Texas A&M,WR,4,2,2,2.7,2018
+Ridley,Calvin,Alabama,WR,2,1,1,1.3,2018
+Sutton,Cameron,SMU,WR,1,2,1,1.3,2018
+Moore,DJ,Maryland,WR,4,2,3,3.0,2018
+Miller,Anthony,Memphis,WR,2,3,1,2.0,2018
+Washington,James,Oklahoma State,WR,1,2,1,1.3,2018
+Ateman,Marcell,Oklahoma State,WR,1,4,1,2.0,2018
+Tate,Auden,Florida State,WR,2,4,3,3.0,2018
+Pettis,Austin,Washington,WR,5,2,4,3.7,2018
+Gallup,Michael,Colorado State,WR,1,2,2,1.7,2018
+Scott,Jaleel,New Mexico State,WR,3,4,5,4.0,2018
+Cain,Deon,Clemson,WR,4,2,4,3.3,2018
+Hamilton,DaeSean,Penn State,WR,3,4,3,3.3,2018
+Wilson,Cedrick,Boise State,WR,3,4,3,3.3,2018
+Smith,Tre’Quan,UCF,WR,3,4,3,3.3,2018
+Lazard,Allen,Iowa State,WR,5,4,5,4.7,2018
+St. Brown,Equinameous,Notre Dame,WR,5,3,6,4.7,2018
+Chark,DJ,LSU,WR,6,2,5,4.3,2018
+Coutee,Keke,Texas Tech,WR,6,3,4,4.3,2018
+Moore,J’Mon,Missouri,WR,6,3,5,4.7,2018
+Burnett,Deontay,USC,WR,2,7,2,3.7,2018
+Goedert,Dallas,South Dakota State,TE,2,2,2,2.0,2018
+Andrews,Mark,Oklahoma,TE,2,3,1,2.0,2018
+Hurst,Hayden,South Carolina,TE,6,2,6,4.7,2018
+Gisecki,Mike,Penn State,TE,4,2,4,3.3,2018
+Thomas,Ian,Indiana,TE,5,2,5,4.0,2018
+Schultz,Dalton,Stanford,TE,5,3,7,5.0,2018
+Smythe,Durham,Notre Dame,TE,6,4,6,5.3,2018
+Fumagali,Troy,Wisconsin,TE,5,4,5,4.7,2018
+Brenneman,Adam,UMass,TE,6,6,4,5.3,2018
+Herndon,Chris,Miami,TE,7,4,7,6.0,2018
+Izzo,Ryan,Florida State,TE,7,4,7,6.0,2018
+Daniels,James,Iowa,C,2,2,6,3.3,2018
+Price,Billy,Ohio State,C,2,2,3,2.3,2018
+Ragnow,Frank,Arkansas,C,1,2,2,1.7,2018
+Bozeman,Bradley,Alabama,C,2,7,4,4.3,2018
+Corbett,Austin,Nevada,C,3,3,7,4.3,2018
+Shelton,Coleman,Washington,C,4,6,5,5.0,2018
+Clapp,Will,LSU,C,5,5,7,5.7,2018
+Allen,Brian,Michigan State,C,4,6,7,5.7,2018
+Cole,Mason,Michigan,C,7,3,7,5.7,2018
+Quessenberry,Scott,UCLA,C,6,6,7,6.3,2018
+Nelson,Quenton,Notre Dame,G,1,1,1,1,2018
+Wynn,Isaiah,Georgia,G,2,1,2,1.7,2018
+Hernandez,Will,UTEP,G,2,1,2,1.7,2018
+Smith,Braden,Auburn,G,2,3,2,2.3,2018
+Teller,Wyatt,Virginia Tech,G,4,5,7,5.3,2018
+Phillips,Skylar,Idaho State,G,6,5,7,6,2018
+Hearn,Taylor,Clemson,G,5,6,7,6,2018
+Williams,Connor,Texas,OT,1,1,2,1.3,2018
+Brown,Orlando,Oklahoma,OT,1,1,2,1.3,2018
+McGlinchey,Mike,Notre Dame,OT,2,1,1,1.3,2018
+Miller,Kolton,UCLA,OT,1,2,1,1.3,2018
+O’Neill,Brian,Pittsburgh,OT,7,2,1,3.3,2018
+Okorafor,Chukwuma,Central Michigan,OT,1,2,2,1.7,2018
+Rankin,Martinas,Mississippi State,OT,2,2,3,2.3,2018
+Jones,Jamarco,Ohio State,OT,4,1,4,3.0,2018
+Harrison,Desmond,West Georgia,OT,7,3,3,4.3,2018
+Crosby,Tyrell,Oregon,OT,2,2,4,2.7,2018
+Parker,Brandon,North Carolina A&T,OT,7,3,5,5.0,2018
+Richardson,Will,NC State,OT,3,3,7,4.3,2018
+Cappa,Alex,Humboldt State,OT,6,5,7,6.0,2018
+Madison,Cole,Washington State,OT,7,3,7,5.7,2018
+Notebloom,Joseph,TCU,OT,3,3,7,4.3,2018
+Boettger,Ike,Iowa,OT,7,5,5,5.7,2018
+Toth,Brett,Army,OT,7,6,7,6.7,2018
+Chubb,Bradley,NC State,DE,1,1,1,1.0,2018
+Davenport,Marcus,UTEP,DE,1,1,1,1.0,2018
+Okoronkwo,Ogbonnia,Oklahoma,DE,1,4,1,2.0,2018
+Key,Arden,LSU,DE,2,1,1,1.3,2018
+Holland,Jeff,Auburn,DE,2,3,3,2.7,2018
+Ejiofor,Duke,Wake Forest,DE,3,4,4,3.7,2018
+Thomas,Chad,Miami,DE,3,2,3,2.7,2018
+Lawler,Justin,SMU,DE,3,7,4,4.7,2018
+Carter,Lorenzo,Georgia,DE,3,2,3,2.7,2018
+Speaks,Breeland,Florida State,DE,3,3,5,3.7,2018
+Hubbard,Sam,Ohio State,DE,4,3,2,3.0,2018
+Brown,Andrew,Virginia,DE,4,6,4,4.7,2018
+Young,Tevon,Louisville,DE,4,6,4,4.7,2018
+Sweat,Josh,Florida State,DE,5,2,7,4.7,2018
+Mata’afa,Hercules,Washington State,DE,5,7,7,6.3,2018
+Holmes,Jalyn,Ohio State,DE,5,3,3,3.7,2018
+Lewis,Tyquan,Ohio State,DE,5,5,7,5.7,2018
+Armstrong Jr.,Dorance,Kansas,DE,6,3,3,4.0,2018
+Vea,Vita,Washington,DT,1,1,1,1.0,2018
+Bryan,Taven,Florida,DT,1,1,2,1.3,2018
+Settle,Tim,Virginia Tech,DT,2,1,4,2.3,2018
+Hurst,Maurice,Michigan,DT,1,1,1,1.0,2018
+Payne,De’Ron,Alabama,DT,1,1,2,1.3,2018
+Green,Rasheem,USC,DT,3,1,3,2.3,2018
+Hand,Da’Shawn,Alabama,DT,5,2,2,3.0,2018
+Phillips,Harrison,Stanford,DT,2,2,2,2.0,2018
+Nnadi,Derrick,Florida State,DT,2,4,3,3.0,2018
+McIntosh,RJ,Miami,DT,3,7,3,4.3,2018
+Fatukasi,Foley,UConn,DT,6,3,4,4.3,2018
+Shepherd,Nathan,Fort Hays State,DT,4,4,6,4.7,2018
+Senat,Deadrin,USF,DT,5,3,4,4.0,2018
+Thompson,Trenton,Georgia,DT,6,4,4,4.7,2018
+Hill,BJ,NC State,DT,3,4,3,3.3,2018
+Wilson,Eddy,Purdue,DT,7,5,7,6.3,2018
+Street,Kentavious,NC State,DT,7,7,5,6.3,2018
+Jones,Justin,NC State,DT,5,6,4,5.0,2018
+Henderson,Zaycoven,Texas A&M,DT,7,5,7,6.3,2018
+Ford,Poona,Texas,DT,4,7,3,4.7,2018
+Lotulelei,Lowell,Utah,DT,7,6,5,6.0,2018
+Edmunds,Tremaine,Virginia Tech,OLB,1,1,1,1.0,2018
+O'Daniel,Dorian,Clemson,OLB,1,6,5,4.0,2018
+Leonard,Darius,South Carolina State,OLB,2,2,4,2.7,2018
+Moore,Skai,South Carolina,OLB,2,7,7,5.3,2018
+Nwosu,Uchenna,USC,OLB,3,3,5,3.7,2018
+Landry,Harold,Boston College,OLB,1,1,1,1.0,2018
+Scales,Tegray,Indiana,OLB,4,4,2,3.3,2018
+Turay,Kemoko,Rutgers,OLB,6,3,5,4.7,2018
+Haynes,Marquis,Ole Miss,OLB,5,3,7,5.0,2018
+Griffin,Shaquem,UCF,OLB,6,5,7,6.0,2018
+Smith,Roquan,Georgia,OLB,1,1,1,1.0,2018
+Baker,Jerome,Ohio State,OLB,4,3,4,3.7,2018
+Warner,Fred,BYU,OLB,4,4,7,5.0,2018
+Jefferson,Malik,Texas,OLB,3,3,3,3.0,2018
+Howard,Travin,TCU,OLB,4,7,7,6.0,2018
+Smith,Roquan,Georgia,ILB,1,1,1,1.0,2018
+Evans,Rashaan,Alabama,ILB,2,2,2,2.0,2018
+Vander Esch,Leighton,Boise State,ILB,2,1,2,1.7,2018
+Jowell,Josey,Iowa,ILB,6,3,3,4.0,2018
+Sam,Christian,Arizona State,ILB,4,4,3,3.7,2018
+McCray,Mike,Michigan,ILB,7,4,6,5.7,2018
+Kiser,Micah,Virginia,ILB,4,6,4,4.7,2018
+Bierria,Keishawn,Washington ,ILB,5,7,7,6.3,2018
+Worley,Chris,Ohio State,ILB,7,7,7,7.0,2018
+Cabinda,Jason,Penn State,ILB,4,7,7,6.0,2018
+Burks,Oren,Vanderbilt,ILB,4,7,7,6.0,2018
+Hamilton,Shaun Dion,Alabama,ILB,6,7,7,6.7,2018
+Cichy,Jack,Wisconsin,ILB,6,7,7,6.7,2018
+DeLuca,Nick,North Dakota State,ILB,7,7,7,7.0,2018
+Victor,Azeem,Washington ,ILB,7,7,3,5.7,2018
+Ward,Denzel,Ohio State,CB,1,1,1,1.0,2018
+Jackson,Josh,Iowa,CB,1,1,1,1.0,2018
+Hughes,Mike,UCF,CB,3,2,4,3.0,2018
+Jackson,Donte,LSU,CB,3,2,4,3.0,2018
+Oliver,Isaiah,Colorado,CB,1,1,1,1.0,2018
+Alexander,Jaire,Louisville,CB,1,2,2,1.7,2018
+Hill,Holton,Texas,CB,2,2,2,2.0,2018
+Kelly,Cameron,San Diego State,CB,2,4,2,2.7,2018
+Davis,Carlton,Auburn,CB,3,1,2,2.0,2018
+Stroman,Greg,Virginia Tech,CB,2,4,7,4.3,2018
+Stewart,M.J.,North Carolina,CB,2,2,2,2.0,2018
+Meeks,Quentin,Stanford,CB,3,7,3,4.3,2018
+McFadden,Tavarus,Florida State,CB,6,2,3,3.7,2018
+Reed,DJ,Kansas State,CB,3,7,4,4.7,2018
+Nelson,Nick,Wisconsin,CB,3,7,5,5.0,2018
+Williams,Darious,UAB,CB,4,7,7,6.0,2018
+Dawson,Duke,Florida,CB,5,2,6,4.3,2018
+Tolliver II,Kevin,LSU,CB,7,3,6,5.3,2018
+Averett,Anthony,Alabama,CB,6,2,7,5.0,2018
+Gaulden,Rashaan,Tennessee,CB,5,2,7,4.7,2018
+Phillips,Darius,Western Michigan,CB,5,4,7,5.3,2018
+Fitzpatrick,Minkah,Alabama,S,1,1,1,1.0,2018
+James,Derwin,Florida State,S,1,1,1,1.0,2018
+Harrison,Ronnie,Alabama,S,3,1,2,2.0,2018
+Bates,Jessie,Wake Forest,S,4,2,5,3.7,2018
+White,Kyzir,West Virginia,S,4,2,3,3.0,2018
+Watts,Armani,Texas A&M,S,3,2,3,2.7,2018
+Elliott,DeShon,Texas,S,3,5,2,3.3,2018
+Allen,Marcus,Penn State,S,4,4,4,4.0,2018
+Edmunds,Terrell,Virginia Tech,S,7,4,5,5.3,2018
+Blanding,Quin,Virginia,S,3,4,4,3.7,2018
+Neal,Siran,Jacksonville State,S,7,4,7,6.0,2018
+Reid,Justin,Stanford,S,3,4,3,3.3,2018
+Igwebuike,Godwin,Northwestern,S,6,4,5,5.0,2018
+Reaves,Jeremy,South Alabama,S,4,7,7,6.0,2018
+Whitehead,Jordan ,Pittsburgh,S,4,5,4,4.3,2018
+Matthews,Tray,Auburn,S,5,6,7,6.0,2018
+Webb,Damon,Ohio State,S,5,7,5,5.7,2018

@@ -25,8 +25,23 @@ $secondary-color: #152935;
 
 nav {
   background-color: $secondary-color;
+  font-family: "IBM Plex Sans";
 }
 
-h1,h2,h3,h4,h5,h6 {
-  font-family: "IBM Plex Sans"
+h1, h2 {
+  font-family: "IBM Plex Sans";
+  font-weight: bold;
+  color: $secondary-color;
+  text-align: center;
+}
+
+h3 {
+  font-family: "IBM Plex Sans";
+  color: $primary-color;
+  text-align: center;
+}
+
+p {
+  font-family: "IBM Plex Sans";
+  font-size: 12;
 }
