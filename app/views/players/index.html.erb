@@ -1,0 +1,53 @@
+<h1>All Players List</h1>
+<div class="container">
+  <div class="form-group col-md-8">
+      <label for="inputPosition">Position</label>
+      <select id="inputPosition" class="form-control">
+        <option>Quarterbacks</option>
+        <option>Running Backs</option>
+        <option>Wide Receivers</option>
+        <option>Tight Ends</option>
+        <option>Offensive Tackles</option>
+        <option>Guards</option>
+        <option>Centers</option>
+        <option>Defensive Tackles</option>
+        <option>Defensive Ends</option>
+        <option>Outside Linebackers</option>
+        <option>Inside Linebackers</option>
+        <option>Cornerbacks</option>
+        <option>Safeties</option>
+      </select>
+    </div>
+  </div>
+
+<div class="container">
+  <table class='table'>
+    <thead class='thead-dark'>
+      <tr>
+        <th>Player</th>
+        <th>School</th>
+        <th>Position</th>
+        <th>Composite Rating</th>
+      </tr>
+    </thead>
+
+    <tbody>
+  <% @players.each do |player| %>
+    <tr>
+    <td>
+      <b><%= player.first_name %> <%= player.last_name %></b>
+    </td>
+    <td>
+      <%= player.school %>
+    </td>
+    <td>
+      <%= player.position %>
+    </td>
+      <td>
+      <%= player.composite_rating %>
+      </td>
+      </tr>
+
+    <% end %>
+</tbody>
+</table>
