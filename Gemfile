@@ -35,6 +35,9 @@ gem 'bootstrap', '~> 4.0.0'
 gem 'devise'
 gem 'jquery-rails'
 gem 'kaminari'
+gem 'acts_as_list'
+gem 'better_errors', group: :development
+gem 'binding_of_caller'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

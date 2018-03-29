@@ -1,14 +1,15 @@
 <h1>Start a New Board</h1>
-
+<br />
 <div class='container'>
   <div class='row'>
-    <div class='col-md-6'>
-      <form>
-        <div class='form-group'>
-          <label for='BoardName'>Name Your Board:</label>
-          <input type='text' class='form-control' />
-        </div>
-        </form> 
+    <div class='col-md-6 offset-md-3'>
+      <div class='form-group' style="text-align:center;">
+          <%= form_with url: boards_create_path do |f| %>
+          <%= text_field_tag :name, nil, placeholder: 'Name Your Board' %>
+          <%= f.submit 'Create Board', class: 'btn',
+          style: 'background-color: #5aaafa' %>
+          <% end %>
+      </div>
     </div>
   </div>
 </div>

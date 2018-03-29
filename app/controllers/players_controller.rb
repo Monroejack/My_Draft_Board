@@ -4,9 +4,6 @@ class PlayersController < ApplicationController
   def index
     end
 
-    def quarterbacks
-    end
-
     private
 
     def set_player

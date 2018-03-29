@@ -1,8 +1,7 @@
 class Player < ApplicationRecord
+  has_many :player_boards
+  has_many :boards, through: :player_boards
 
   @player = Player.all
 
-  def quarterbacks
-  @quarterback = @players.where(:position => "QB")
-  end
 end

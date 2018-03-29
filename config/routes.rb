@@ -10,6 +10,9 @@ Rails.application.routes.draw do
   get 'players_quarterbacks' => 'players#quarterbacks'
   get 'boards' => 'boards#index'
   get 'boards/new' => 'boards#new'
+  post 'boards/create' => 'boards#create'
+  get 'boards/edit' => 'boards#edit'
+  get 'boards/show' => 'boards#show'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
