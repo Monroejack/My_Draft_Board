@@ -4,6 +4,6 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
 
-         has_one :board
+         has_many :boards
          mount_uploader :avatar, AvatarUploader
 end

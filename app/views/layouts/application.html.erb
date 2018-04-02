@@ -13,7 +13,7 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark justify-content-between">
     <a class="navbar-brand" href="#">My Draft Board</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon">
@@ -53,10 +53,15 @@
             <%= link_to 'Safeties', all_players_path(position: "S"), class: 'dropdown-item' %>
           </div>
         </li>
+      <ul class='nav navbar-inline'>
+        <li>
+    <% if user_signed_in? %>
+    <%= link_to 'Sign Out', destroy_user_session_path, method: :delete %>
+    <% else %>
+    <% link_to 'Sign In', new_user_session_path %>
+    <% end %>
+  </li>
       </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      </form>
     </div>
   </nav>
 
