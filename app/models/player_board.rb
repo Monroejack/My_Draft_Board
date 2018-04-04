@@ -4,19 +4,4 @@ class PlayerBoard < ApplicationRecord
 
   acts_as_list scope: :board
 
-  def first_name
-  
-  end
-
-  def last_name
-
-  end
-
-  def position
-
-  end
-
-  def school
-
-  end
 end
