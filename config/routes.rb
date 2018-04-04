@@ -15,6 +15,10 @@ Rails.application.routes.draw do
   get 'boards/show' => 'boards#show'
   post 'boards/add' => 'boards#add'
   delete 'boards/delete' => 'boards#delete'
+  patch 'add_player_to_board' => 'boards#add_player_to_board'
+  patch 'move_player_up' => 'boards#move_player_up'
+  patch 'move_player_down' => 'boards#move_player_down'
+  patch 'remove_player' => 'boards#remove_player'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

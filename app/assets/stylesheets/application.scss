@@ -16,13 +16,13 @@
 @import 'welcome';
 @import 'boards';
 @import 'players';
+@import 'font-awesome';
 
 $primary-color: #5aaafa;
 $secondary-color: #152935;
 
 @font-face {
   font-family: 'IBM Plex Sans';
-   src: url(/Users/aulbriesass/Library/Fonts);
 }
 
 nav {
@@ -46,4 +46,8 @@ h3 {
 p {
   font-family: "IBM Plex Sans";
   font-size: 12;
+}
+
+table {
+  font-family: "IBM Plex Sans";
 }

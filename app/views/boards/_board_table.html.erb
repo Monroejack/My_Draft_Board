@@ -1,14 +1,40 @@
-<div class="container">
-  <table class='table'>
-    <thead class='thead-dark'>
-      <tr>
-        <th>Player</th>
-        <th>School</th>
-        <th>Position</th>
-        <th>Action</th>
-      </tr>
-    </thead>
+<table class='table'>
+  <thead class='thead-dark'>
+    <tr>
+      <th>Player</th>
+      <th>School</th>
+      <th>Position</th>
+      <th>Action</th>
+    </tr>
+  </thead>
 
-    <tbody>
-      
-    </tbody>
+  <tbody>
+    <% @board.player_boards.each do |player_board| %>
+    <tr>
+      <td>
+        <%= player_board.player.first_name %> <%= player_board.player.last_name %>
+      </td>
+      <td>
+        <%= player_board.player.school %>
+      </td>
+      <td>
+        <%= player_board.player.position %>
+      </td>
+      <td>
+        <% if !player_board.last? %>
+        <%= link_to move_player_down_path(player_board_id: player_board.id), method: :patch do %>
+        <%= fa_icon "arrow-circle-down", style: 'color: #5aaafa' %>
+        <% end %>
+        <% end %>
+        <% if !player_board.first? %>
+        <%= link_to move_player_up_path(player_board_id: player_board.id), method: :patch do %>
+        <%= fa_icon "arrow-circle-up", style: 'color: #5aaafa' %>
+        <% end %>
+        <% end %>
+        <%= link_to remove_player_path(player_board_id: player_board.id), method: :patch do %>
+        <%= fa_icon "times-circle", style: 'color: #5aaafa' %>
+        <% end %>
+      </td>
+    </tr>
+    <% end %>
+  </tbody>
