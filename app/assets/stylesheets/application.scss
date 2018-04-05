@@ -28,6 +28,7 @@ $secondary-color: #152935;
 nav {
   background-color: $secondary-color;
   font-family: "IBM Plex Sans";
+  display: inline;
 }
 
 h1, h2 {
@@ -50,4 +51,8 @@ p {
 
 table {
   font-family: "IBM Plex Sans";
+}
+
+#sign_in_out {
+  float: right;
 }
