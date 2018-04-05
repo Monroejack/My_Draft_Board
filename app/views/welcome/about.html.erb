@@ -16,7 +16,8 @@
 
 </div>
 <div class='container' style="text-align:center;">
-  <button class:'btn btn-primary-outline' style="background-color: #5aaafa;">
-    Create Your Own Board Now!
-  </button>
+  <%= form_with url: boards_create_path do |f| %>
+  <%= f.submit 'Create Board', class: 'btn',
+  style: 'background-color: #5aaafa' %>
+  <% end %>
 </div>

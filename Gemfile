@@ -39,6 +39,8 @@ gem 'acts_as_list'
 gem 'better_errors', group: :development
 gem 'binding_of_caller'
 gem 'font-awesome-rails'
+gem 'figaro'
+gem 'fog'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
