@@ -43,6 +43,7 @@ GEM
       activerecord (>= 3.0)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
+    animate-css-rails (3.5.2)
     arel (8.0.0)
     autoprefixer-rails (8.1.0.1)
       execjs
@@ -418,6 +419,7 @@ PLATFORMS
 
 DEPENDENCIES
   acts_as_list
+  animate-css-rails
   better_errors
   binding_of_caller
   bootstrap (~> 4.0.0)

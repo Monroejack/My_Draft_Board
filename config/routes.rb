@@ -19,6 +19,7 @@ Rails.application.routes.draw do
   patch 'move_player_up' => 'boards#move_player_up'
   patch 'move_player_down' => 'boards#move_player_down'
   patch 'remove_player' => 'boards#remove_player'
-
+  get 'show_user' => 'welcome#show_user'
+  get 'boards/view' => 'boards#view'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

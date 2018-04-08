@@ -1,1 +1,12 @@
 <h1>All Boards</h1>
+<div class= 'container'>
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <div class='card'>
+<% @boards.each do |board| %>
+  <%= link_to board.name, boards_show_path(id: board.id) %> by 
+<% end %>
+      </div>
+    </div>
+  </div>
+</div>

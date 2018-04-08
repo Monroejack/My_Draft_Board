@@ -9,12 +9,16 @@
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
+
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+
 </head>
 
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-dark justify-content-between">
-    <a class="navbar-brand" href="#">My Draft Board</a>
+    <%= link_to 'My Draft Board', root_path, class: 'navbar-brand' %>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon">
       </span>
@@ -30,6 +34,9 @@
         </li>
         <li class="nav-item">
           <%= link_to 'Create Your Own Board', boards_new_path, class: 'nav-link' %>
+        </li>
+        <li class="nav-item">
+          <%= link_to 'All Boards', boards_path, class: 'nav-link' %>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -55,13 +62,16 @@
         </li>
       </ul>
       <ul class="navbar-nav ml-auto">
-        <li id='sign_in_out' class='nav navbar-nav pull-right'>
-          <% if user_signed_in? %>
+        <% if user_signed_in? %>
+        <li>
+          <%= link_to 'My Profile', show_user_path, class: 'nav-link', method: :get %>
+        </li>
+        <li>
           <%= link_to 'Sign Out', destroy_user_session_path, class: 'nav-link', method: :delete %>
           <% else %>
           <% link_to 'Sign In', new_user_session_path, class: 'nav-link' %>
-          <% end %>
         </li>
+          <% end %>
       </ul>
     </div>
   </nav>

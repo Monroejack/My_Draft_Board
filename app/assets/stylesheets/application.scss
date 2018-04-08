@@ -58,10 +58,14 @@ table {
 }
 
 .avatar {
-    height: 40px;
-    width: 40px;
-    border: 1.5px solid;
-    border-radius: 40px;
+    height: 80px;
+    width: 80px;
+    border: 2px solid;
+    border-radius: 80px;
     padding: 4px;
     display: inline-block;
+  }
+
+.form-group {
+    font-family: "IBM Plex Sans";
   }

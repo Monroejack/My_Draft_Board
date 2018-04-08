@@ -41,6 +41,7 @@ gem 'binding_of_caller'
 gem 'font-awesome-rails'
 gem 'figaro'
 gem 'fog'
+gem 'animate-css-rails'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
