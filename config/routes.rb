@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   get 'players/index'
 
-  devise_for :users, controllers: { omniauth_callbacks: 'users/omniauth_callbacks' }
+  devise_for :users
   root 'welcome#index'
   get 'welcome/index'
   get 'about' => 'welcome#about'
@@ -21,7 +21,7 @@ Rails.application.routes.draw do
   patch 'remove_player' => 'boards#remove_player'
   get 'show_user' => 'welcome#show_user'
   get 'boards/view' => 'boards#view'
-      
+
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
