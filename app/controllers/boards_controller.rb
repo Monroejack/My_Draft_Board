@@ -1,9 +1,9 @@
 class BoardsController < ApplicationController
 
-  before_action :set_board, only: [:show, :add_player_to_board]
+  before_action :set_board, only: [:show, :add_player_to_board, :view, :move_player_down, :move_player_up, :remove_player]
   before_action :set_player
   before_action :authenticate_user!
-  before_action :set_player_board, only: [:move_player_up, :move_player_down, :remove_player, :view]
+  before_action :set_player_board, only: [:move_player_up, :move_player_down, :remove_player]
 
   def index
     @boards = Board.all
@@ -41,22 +41,18 @@ class BoardsController < ApplicationController
 
   def add_player_to_board
     PlayerBoard.create(player_id: params[:player_id], board_id: params[:id])
-    redirect_to boards_show_path(id: params[:id])
   end
 
   def move_player_down
     @player_board.move_lower
-    redirect_to boards_show_path(id: @player_board.board.id)
   end
 
   def move_player_up
     @player_board.move_higher
-    redirect_to boards_show_path(id: @player_board.board.id)
   end
 
   def remove_player
     @player_board.destroy
-    redirect_to boards_show_path(id: @player_board.board.id)
   end
 
   private

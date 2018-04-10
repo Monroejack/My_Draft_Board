@@ -2,10 +2,10 @@
 <div class="container">
   <div class="row">
     <div class="col-md-6 offset-md-3">
-      <div class='card'>
-      <h5 class='card-title'><%=current_user.username %></h5>
+      <div class='card' style="text-align:center;">
+      <h5 class='card-header'><%=current_user.username %></h5>
       <% unless current_user.avatar.url == nil %>
-        <%= image_tag current_user.avatar.url, class: 'avatar'%>
+        <%= image_tag current_user.avatar.url, class: 'avatar' %>
       <% end %>
       <p>Name: <%= @user.name %> </p>
       <p>Location: <%= @user.location %> </p>
@@ -16,9 +16,9 @@
 
   <div class="row">
     <div class="col-md-6 offset-md-3">
-      <div class='card'>
+      <div class='card' style="text-align:center;">
   <% @my_boards.each do |board| %>
-    <%= link_to board.name, boards_show_path(id: board.id) %>
+    <%= link_to board.name, boards_show_path(id: board.id), id: 'profileboardlink' %>
   <% end %>
       </div>
     </div>

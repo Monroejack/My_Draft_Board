@@ -6,7 +6,7 @@ class AvatarUploader < CarrierWave::Uploader::Base
    storage :fog
  else
    storage :file
- end 
+ end
   # Choose what kind of storage to use for this uploader:
   storage :file
   # storage :fog
@@ -48,4 +48,7 @@ class AvatarUploader < CarrierWave::Uploader::Base
   # def filename
   #   "something.jpg" if original_filename
   # end
+  def default_url(*args)
+      "/images/fallback/" + [version_name, "default.png"].compact.join('_')
+    end
 end

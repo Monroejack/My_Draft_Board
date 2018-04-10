@@ -30,7 +30,7 @@
                   <i><%= player.school %></i>
                 </td>
                 <td>
-                  <%= link_to add_player_to_board_path(player_id: player.id, id: @board.id), method: :patch do %>
+                  <%= link_to add_player_to_board_path(player_id: player.id, id: @board.id), remote: true, method: :patch do %>
                   <%= fa_icon "arrow-circle-right", style: 'color: #5aaafa' %>
                   <% end %>
                 </td>
@@ -43,4 +43,3 @@
     </div>
     <% end %>
   </div>
-  

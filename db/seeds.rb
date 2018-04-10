@@ -1,5 +1,5 @@
 Player.destroy_all
-
+Board.destroy_all
 require 'csv'
 
 csv_text = File.read(Rails.root.join('lib', 'seeds', 'players.csv'))

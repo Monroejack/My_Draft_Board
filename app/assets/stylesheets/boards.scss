@@ -1,9 +1,9 @@
 $secondary-color: #152935;
 
-.thead-dark {
+.card-header {
   background-color: $secondary-color;
 }
 
-.card-header {
-  background-color: $secondary-color;
+#viewbutton, a {
+  color: white;
 }

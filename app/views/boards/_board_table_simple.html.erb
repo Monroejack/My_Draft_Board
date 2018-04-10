@@ -1,0 +1,24 @@
+<table class='table'>
+  <thead class='thead' style= 'background-color: #152935'>
+    <tr>
+      <th>Player</th>
+      <th>School</th>
+      <th>Position</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @board.player_boards.each do |player_board| %>
+    <tr>
+      <td>
+        <%= player_board.player.first_name %> <%= player_board.player.last_name %>
+      </td>
+      <td>
+        <%= player_board.player.school %>
+      </td>
+      <td>
+        <%= player_board.player.position %>
+      </td>
+    </tr>
+    <% end %>
+  </tbody>

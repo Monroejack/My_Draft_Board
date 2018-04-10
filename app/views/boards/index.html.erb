@@ -2,9 +2,10 @@
 <div class= 'container'>
   <div class="row">
     <div class="col-md-6 offset-md-3">
-      <div class='card'>
+      <div class='card' style="text-align:center;">
 <% @boards.each do |board| %>
-  <%= link_to board.name, boards_show_path(id: board.id) %> by 
+  <p><b><%= link_to board.name, boards_view_path(id: board.id) %></b> by
+    <%= board.user.try(:username) %></p>
 <% end %>
       </div>
     </div>

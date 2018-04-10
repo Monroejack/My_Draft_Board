@@ -63,9 +63,17 @@ table {
     border: 2px solid;
     border-radius: 80px;
     padding: 4px;
-    display: inline-block;
+    align-self: center;
   }
 
 .form-group {
     font-family: "IBM Plex Sans";
   }
+
+.thead {
+  color: white;
+}
+
+a {
+  color: $secondary-color;
+}
