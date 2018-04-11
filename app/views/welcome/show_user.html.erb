@@ -3,7 +3,7 @@
   <div class="row">
     <div class="col-md-6 offset-md-3">
       <div class='card' style="text-align:center;">
-      <h5 class='card-header'><%=current_user.username %></h5>
+      <h5 class='card-header' id='card_header_1'><%=current_user.username %></h5>
       <% unless current_user.avatar.url == nil %>
         <%= image_tag current_user.avatar.url, class: 'avatar' %>
       <% end %>
@@ -17,7 +17,7 @@
   <div class="row">
     <div class="col-md-6 offset-md-3">
       <div class='card' style="text-align:center;">
-        <h6 class='card-header'>Your Boards</h6>
+        <h6 class='card-header' id='card_header_2'>Your Boards</h6>
   <% @my_boards.each do |board| %>
     <%= link_to board.name, boards_show_path(id: board.id), id: 'profileboardlink' %>
   <% end %>

@@ -112,3 +112,41 @@ td {
   color: #8C9BA5 !important;
   border: 0px !important;
 }
+
+#card_header_1 {
+  color: white;
+  text-align: center;
+  background-image: url("/images/Card_1_BG.png") !important;
+  background-size: cover;
+  height: 150px;
+  width: 100%;
+  font-weight: lighter !important;
+  font-size: 56px;
+}
+
+#card_header_2 {
+  color: white;
+  text-align: center;
+  font-size: 56px;
+  background-image: url("/images/Card_2_BG.png") !important;
+  background-size: cover;
+  height: 150px;
+  font-weight: lighter !important;
+  width: 100%;
+}
+
+#card_header_3 {
+  color: white;
+  text-align: center;
+  font-size: 56px;
+  background-image: url("/images/Card_3_BG.png") !important;
+  background-size: cover;
+  height: 150px;
+  font-weight: lighter !important;
+  width: 100%;
+}
+
+br {
+  color: #3D70B2;
+  height: 2px;
+}

@@ -30,6 +30,12 @@
       <%= f.text_field :location, class: "form-control" %>
     </div>
 
+    <% if current_user.avatar == nil %>
+    <div class='form-group'>
+      <%= f.label :avatar %>
+      <%= f.file_field :avatar, class: 'btn' %>
+    </div>
+    <% end %>
 
     <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
     <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>

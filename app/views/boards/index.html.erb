@@ -1,8 +1,8 @@
-<h1>All Boards</h1>
 <div class= 'container'>
   <div class="row">
     <div class="col-md-6 offset-md-3">
       <div class='card' style="text-align:center;">
+        <h5 class='card-header' id='card_header_2'>All Boards</h5>
 <% @boards.each do |board| %>
   <p><b><%= link_to board.name, boards_view_path(id: board.id), style: 'color: #152935' %></b> by
     <%= board.user.try(:username) %></p>
