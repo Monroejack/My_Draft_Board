@@ -6,28 +6,17 @@
     </div>
   </div>
 </div>
+<br />
 
-  <div class="form-group col-md-8">
-      <label for="inputPosition">Position</label>
-      <select id="inputPosition" class="form-control">
-        <option>Quarterbacks</option>
-        <option><%= link_to 'Running Backs', all_players_path(position: "RB") %></option>
-        <option>Wide Receivers</option>
-        <option>Tight Ends</option>
-        <option>Offensive Tackles</option>
-        <option>Guards</option>
-        <option>Centers</option>
-        <option>Defensive Tackles</option>
-        <option>Defensive Ends</option>
-        <option>Outside Linebackers</option>
-        <option>Inside Linebackers</option>
-        <option>Cornerbacks</option>
-        <option>Safeties</option>
-      </select>
+  <div class="form-group">
+    <% @player_map.each do | abv, name | %>
+      <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+        <%= link_to name, all_players_path(position: abv), class: 'btn btn-outline', id: '#all_players_button' %>
     </div>
+    <% end %>
   </div>
 
-<div class="container">
+<div class="container" id='all_player_table'>
   <table class='table'>
     <thead class='thead'>
       <tr>

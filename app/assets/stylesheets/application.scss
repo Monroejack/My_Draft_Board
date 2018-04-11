@@ -84,6 +84,16 @@ p {
   font-family: "IBM Plex Sans Bold";
 }
 
+.btn:active {
+  color: white;
+  background-color: #3D70B2;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #5596E6;
+}
+
 #navbar_avatar {
   height: 34px;
   width: 34px;
