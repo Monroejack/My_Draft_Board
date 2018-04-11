@@ -4,7 +4,7 @@
       <label for="inputPosition">Position</label>
       <select id="inputPosition" class="form-control">
         <option>Quarterbacks</option>
-        <option>Running Backs</option>
+        <option><%= link_to 'Running Backs', all_players_path(position: "RB") %></option>
         <option>Wide Receivers</option>
         <option>Tight Ends</option>
         <option>Offensive Tackles</option>
@@ -22,7 +22,7 @@
 
 <div class="container">
   <table class='table'>
-    <thead class='thead' style= 'background-color: #152935'>
+    <thead class='thead'>
       <tr>
         <th>Player</th>
         <th>School</th>

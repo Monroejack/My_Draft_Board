@@ -1,9 +1,11 @@
-<h1><%= @board.name %></h1>
+<h4 id='boardnamebig'><%= @board.name %></h4>
 
 <div class='container' style="text-align:center;">
   <%= link_to 'View Board', boards_view_path(id: @board),
-  class: 'btn', style: 'background-color: #5aaafa', id: 'viewbutton' %>
+  class: 'btn', id: 'viewbutton' %>
 </div>
+
+<br />
 
 <div class='container'>
   <div class='row'>

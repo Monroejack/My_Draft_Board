@@ -1,6 +1,13 @@
 <h1><%= @board.name %></h1>
 
 <div class='container' style="text-align:center;">
+  <%= form_with url: boards_view_path do |f| %>
+  <%= fa_icon "download", style: 'color: #8C9BA5' %>
+  <%= f.submit 'Download', class: 'btn', id: 'downloadbutton' %>
+  <% end %>
+</div>
+
+<div class='container' style="text-align:center;">
   <div class='row'>
       <div class='col-md-6 offset-md-3'>
       <%= render 'board_table_simple' %>

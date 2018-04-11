@@ -1,17 +1,4 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
 
- */
 @import 'bootstrap';
 @import 'welcome';
 @import 'boards';
@@ -25,6 +12,11 @@ $secondary-color: #152935;
   font-family: 'IBM Plex Sans';
 }
 
+#Index_Title {
+  font-family: "IBM Plex Sans";
+  font-weight: bold !important;
+}
+
 nav {
   background-color: $secondary-color;
   font-family: "IBM Plex Sans";
@@ -32,14 +24,14 @@ nav {
 }
 
 h1, h2 {
-  font-family: "IBM Plex Sans";
-  font-weight: bold;
+  font-family: "IBM Plex Sans Light";
   color: $secondary-color;
   text-align: center;
+  font-weight: lighter;
 }
 
 h3 {
-  font-family: "IBM Plex Sans";
+  font-family: "IBM Plex Sans Semibold";
   color: $primary-color;
   text-align: center;
 }
@@ -47,10 +39,6 @@ h3 {
 p {
   font-family: "IBM Plex Sans";
   font-size: 12;
-}
-
-table {
-  font-family: "IBM Plex Sans";
 }
 
 #sign_in_out {
@@ -71,9 +59,56 @@ table {
   }
 
 .thead {
-  color: white;
+  color: #152935;
+  font-family: "IBM Plex Sans Semibold";
+  font-size: 14px;
 }
 
-a {
-  color: $secondary-color;
+#accordionheader {
+  background-color: #F5F7FA !important;
+}
+
+#accordionbutton {
+  color: #152935 !important;
+  border: 0px !important;
+}
+
+.container {
+  padding: 5px;
+}
+
+.btn {
+  color: #3D70B2;
+  border: 2px solid;
+  border-color: #3D70B2;
+  font-family: "IBM Plex Sans Bold";
+}
+
+#navbar_avatar {
+  height: 34px;
+  width: 34px;
+  display: inline-block;
+  border: 2px solid;
+  border-radius: 34px;
+  border-color: white;
+  padding: 4px;
+  align-self: center;
+}
+
+.card {
+  background-color: #DFE3E6;
+}
+
+table {
+  border-spacing: 50px 0;
+  font-family: "IBM Plex Sans";
+}
+
+td {
+  padding: 7px 0;
+}
+
+#downloadbutton {
+  color: #8C9BA5 !important;
+  border: 0px !important;
 }

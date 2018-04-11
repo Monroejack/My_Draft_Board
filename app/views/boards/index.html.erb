@@ -4,7 +4,7 @@
     <div class="col-md-6 offset-md-3">
       <div class='card' style="text-align:center;">
 <% @boards.each do |board| %>
-  <p><b><%= link_to board.name, boards_view_path(id: board.id) %></b> by
+  <p><b><%= link_to board.name, boards_view_path(id: board.id), style: 'color: #152935' %></b> by
     <%= board.user.try(:username) %></p>
 <% end %>
       </div>

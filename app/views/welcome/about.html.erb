@@ -16,8 +16,5 @@
 
 </div>
 <div class='container' style="text-align:center;">
-  <%= form_with url: boards_create_path do |f| %>
-  <%= f.submit 'Create Board', class: 'btn',
-  style: 'background-color: #5aaafa' %>
-  <% end %>
+  <%= link_to 'Create Board', boards_new_path, class: 'btn'%>
 </div>

@@ -3,9 +3,10 @@
 <% abv = position_pair.first %>
 <% name = position_pair.last %>
   <div class="card">
-    <div class="card-header">
+    <div class="card-header" id='accordionheader'>
       <h5 class="mb-0">
-        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse<%= index%>" aria-expanded="false" aria-controls="collapseOne" style='color: #5aaafa'>
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse<%= index %>" aria-expanded="false" aria-controls="collapse<%= index %>" id='accordionbutton'>
+          <%= fa_icon "chevron-right", style: 'color: #8C9BA5' %>
           <%= name %>
         </button>
       </h5>
@@ -31,7 +32,7 @@
                 </td>
                 <td>
                   <%= link_to add_player_to_board_path(player_id: player.id, id: @board.id), remote: true, method: :patch do %>
-                  <%= fa_icon "arrow-circle-right", style: 'color: #5aaafa' %>
+                  <%= fa_icon "arrow-right", style: 'color: #3D70B2' %>
                   <% end %>
                 </td>
               </tr>

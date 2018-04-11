@@ -1,8 +1,8 @@
 #Big_Football {
-  margin: auto;
-  margin-top: 50px;
   padding: 30px;
 }
+
+
 
 #Index_Title {
   text-shadow: 2px 4px 7px rgba(0, 0, 0, 0.5);
@@ -16,14 +16,11 @@
   color: #152935;
 }
 
-#BulletLines {
-  margin: auto;
-  margin-top: 50px;
-  stroke: Solid;
-  align: Center;
-}
-
 .card-header {
   color: white;
-  background-color: #5aaafa !important; 
+  background-color: #5aaafa !important;
+}
+
+.card-header, a {
+  color: white;
 }

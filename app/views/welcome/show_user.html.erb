@@ -13,14 +13,20 @@
     </div>
   </div>
 </div>
-
+<br />
   <div class="row">
     <div class="col-md-6 offset-md-3">
       <div class='card' style="text-align:center;">
+        <h6 class='card-header'>Your Boards</h6>
   <% @my_boards.each do |board| %>
     <%= link_to board.name, boards_show_path(id: board.id), id: 'profileboardlink' %>
   <% end %>
       </div>
     </div>
   </div>
+<br />
+  <div class= 'text-center'>
+    <%= link_to "Edit Profile", edit_user_registration_path, class: 'btn' %>
+  </div>
+
 </div>

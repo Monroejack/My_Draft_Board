@@ -64,6 +64,9 @@
       <ul class="navbar-nav ml-auto">
         <% if user_signed_in? %>
         <li>
+          <%= image_tag current_user.avatar.url, class: 'avatar', id: 'navbar_avatar' %>
+        </li>
+        <li>
           <%= link_to 'My Profile', show_user_path, class: 'nav-link', method: :get %>
         </li>
         <li>

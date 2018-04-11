@@ -42,8 +42,6 @@ gem 'font-awesome-rails'
 gem 'figaro'
 gem 'fog'
 gem 'animate-css-rails'
-gem 'imgkit'
-gem 'wkhtmltoimage-binary'
 gem 'omniauth-twitter'
 
 # Use Capistrano for deployment

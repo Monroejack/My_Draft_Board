@@ -4,6 +4,16 @@ $secondary-color: #152935;
   background-color: $secondary-color;
 }
 
-#viewbutton, a {
-  color: white;
+h4{
+  font-family: "IBM Plex Sans Light" !important;
+  text-align: center;
+  font-size: 54px;
+  font-weight: lighter;
+  color: $secondary-color;
+}
+
+h6 {
+  font-family: "IBM Plex Sans Light" !important;
+  text-align: center;
+  font-weight: lighter;
 }
