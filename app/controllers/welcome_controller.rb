@@ -1,7 +1,7 @@
 class WelcomeController < ApplicationController
 
   before_action :set_user
-  before_action :authenticate_user!, only: [:show_user]
+  before_action :authenticate_user!, only: [:show_user, :index]
 
 
   def index
