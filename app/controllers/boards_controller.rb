@@ -2,7 +2,7 @@ class BoardsController < ApplicationController
 
   before_action :set_board, only: [:show, :add_player_to_board, :view, :move_player_down, :move_player_up, :remove_player]
   before_action :set_player
-  before_action :authenticate_user!
+  before_action :authenticate_user!, except: [:show, :view, :index ]
   before_action :set_player_board, only: [:move_player_up, :move_player_down, :remove_player]
 
   def index

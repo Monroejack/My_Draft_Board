@@ -8,8 +8,25 @@
 $primary-color: #5aaafa;
 $secondary-color: #152935;
 
+.body {
+  font-family: 'IBM Plex Sans', Helvetica;
+}
+
 @font-face {
   font-family: 'IBM Plex Sans';
+}
+
+.btn-group .btn{
+  padding: 0px !important;
+  border: 0px !important;
+  border-radius: 0 !important;
+  color: white;
+}
+
+.btn-toolbar {
+  text-align: center!important;
+  display:block!important;
+  background-color: #3D70B2;
 }
 
 #Index_Title {
@@ -24,7 +41,7 @@ nav {
 }
 
 h1, h2 {
-  font-family: "IBM Plex Sans Light";
+  font-family: "IBM Plex Sans Light" !important;
   color: $secondary-color;
   text-align: center;
   font-weight: lighter;
@@ -82,11 +99,12 @@ p {
   border: 2px solid;
   border-color: #3D70B2;
   font-family: "IBM Plex Sans Bold";
+  align-self: center;
 }
 
-.btn:active {
-  color: white;
-  background-color: #3D70B2;
+.btn:focus {
+  background-color: white;
+  color: #3D70B2;
 }
 
 .btn:hover {

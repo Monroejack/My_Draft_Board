@@ -1,0 +1,32 @@
+
+<div class="container" id='all_player_table'>
+<table class='table'>
+<thead class='thead'>
+  <tr>
+    <th>Player</th>
+    <th>School</th>
+    <th>Position</th>
+    <th>Composite Rating</th>
+  </tr>
+</thead>
+
+<tbody>
+<% @players.each do |player| %>
+<tr>
+<td>
+  <b><%= player.first_name %> <%= player.last_name %></b>
+</td>
+<td>
+  <%= player.school %>
+</td>
+<td>
+  <%= player.position %>
+</td>
+  <td>
+  <%= player.composite_rating %>
+  </td>
+  </tr>
+
+<% end %>
+</tbody>
+</table>

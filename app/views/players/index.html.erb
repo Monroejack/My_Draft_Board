@@ -1,49 +1,15 @@
-<div class="container">
-  <div class="row">
-    <div class="col-md-6 offset-md-3">
-      <div class='card' style="text-align:center;">
-      <h5 class='card-header' id='card_header_3'>Players</h5>
-    </div>
-  </div>
-</div>
+<div class='container'>
+  <h2 style="text-align:left;">Players</h2>
+
 <br />
-
-  <div class="form-group">
+<div class='row'>
+  <div class="btn-toolbar" role="toolbar">
     <% @player_map.each do | abv, name | %>
-      <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-        <%= link_to name, all_players_path(position: abv), class: 'btn btn-outline', id: '#all_players_button' %>
+      <div class="btn-group btn-group-sm" role="group">
+        <%= link_to " " + name + " ", all_players_path(position: abv), class: 'btn', id: 'all_players_button_' + abv, remote: true %>
     </div>
     <% end %>
+    </div>
   </div>
-
-<div class="container" id='all_player_table'>
-  <table class='table'>
-    <thead class='thead'>
-      <tr>
-        <th>Player</th>
-        <th>School</th>
-        <th>Position</th>
-        <th>Composite Rating</th>
-      </tr>
-    </thead>
-
-    <tbody>
-  <% @players.each do |player| %>
-    <tr>
-    <td>
-      <b><%= player.first_name %> <%= player.last_name %></b>
-    </td>
-    <td>
-      <%= player.school %>
-    </td>
-    <td>
-      <%= player.position %>
-    </td>
-      <td>
-      <%= player.composite_rating %>
-      </td>
-      </tr>
-
-    <% end %>
-</tbody>
-</table>
+    <%= render 'all_players' %>
+</div>
