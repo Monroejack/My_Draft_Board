@@ -133,7 +133,7 @@ table {
 }
 
 td {
-  padding: 7px 0;
+  padding: 7px;
 }
 
 #downloadbutton {
@@ -157,17 +157,6 @@ td {
   text-align: center;
   font-size: 56px;
   background-image: url("/images/Card_2_BG.png") !important;
-  background-size: cover;
-  height: 150px;
-  font-weight: lighter !important;
-  width: 100%;
-}
-
-#card_header_3 {
-  color: white;
-  text-align: center;
-  font-size: 56px;
-  background-image: url("/images/Card_3_BG.png") !important;
   background-size: cover;
   height: 150px;
   font-weight: lighter !important;
